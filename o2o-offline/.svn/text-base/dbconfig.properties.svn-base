@@ -1,0 +1,21 @@
+#last update
+#Mon Jun 06 10:01:41 CST 2016
+jdbc.passwd=123456
+posnum=001
+jdbc.dbname=o2ooffline
+jdbc.tableName=es_order es_order_items es_sellback_list
+displayCat=2
+diskName=O2O-OFFLINE
+cardPort=COM1
+#ip=http\://111.160.124.227:18680
+#ip=http\://192.168.1.179:8080
+ip=http\://localhost\:8080
+diskString=K\:/
+jdbc.url=jdbc\:mysql\://localhost\:3306/o2ooffline?useUnicode\=true&characterEncoding\=utf-8
+uDiskName=O2O-OFFLINE
+jdbc.user=root
+xtrans=20
+jdbc.driverClassName=com.mysql.jdbc.Driver
+storeId=191
+storeName="\u4e24\u5143\u5e97"
+nPort=2

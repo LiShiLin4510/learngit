@@ -1,0 +1,16 @@
+#\u5b9a\u4e49DEBUG\u4f18\u5148\u7ea7\uff0cR\u4e3a\u65e5\u5fd7\u8f93\u51fa\u76ee\u7684\u7684
+log4j.rootLogger=DEBUG, R,CONSOLE
+#\u8bbe\u7f6e\u65e5\u5fd7\u8f93\u51fa\u7c7b\u578b,\u4e3a\u6587\u4ef6\u7c7b\u578b
+log4j.appender.R=org.apache.log4j.FileAppender
+#\u8bbe\u7f6e\u65e5\u5fd7\u6587\u4ef6\u540dmy.log
+log4j.appender.R.file=C:/o2olog/my.log
+#\u6bcf\u6b21\u5728\u6587\u4ef6\u5c3e\u5199\u5165\u65b0\u7684\u65e5\u5fd7\u4fe1\u606f
+log4j.appender.R.Append=true
+#\u65e5\u5fd7\u8f93\u51fa\u4fe1\u606f\u683c\u5f0f\u7c7b\u578b
+log4j.appender.R.layout=org.apache.log4j.PatternLayout
+#\u65e5\u5fd7\u8f93\u51fa\u4fe1\u606f\u683c\u5f0f\u4e3a \u6362\u884c\u3001\u6362\u884c\u3001\u65e5\u671f\u3001\u4f18\u5148\u7ea7\u3001[\u7c7b\u540d]\u3001\u65e5\u5fd7\u4fe1\u606f\u3001\u6362\u884c
+log4j.appender.R.layout.ConversionPattern=%n%n%d%p[%c]-%m%n 
+
+log4j.appender.CONSOLE=org.apache.log4j.ConsoleAppender  
+log4j.appender.CONSOLE.layout=org.apache.log4j.PatternLayout  
+log4j.appender.CONSOLE.layout.ConversionPattern=%d{MM-ddHH:mm:ss}[%c-%L][%t][%-4r] - %m%n  
