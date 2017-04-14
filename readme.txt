@@ -1,2 +1,2 @@
 
-hello world,everyone
+hello world,everyone,today is friday!
